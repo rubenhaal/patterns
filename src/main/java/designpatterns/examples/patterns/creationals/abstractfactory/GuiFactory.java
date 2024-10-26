@@ -11,6 +11,6 @@ import designpatterns.examples.patterns.creationals.abstractfactory.model.interf
  * das Verhalten dieser Schnittstelle
  */
 public interface GuiFactory {
-    public Button createButton();
-    public Window createWindow();
+    Button createButton();
+    Window createWindow();
 }
