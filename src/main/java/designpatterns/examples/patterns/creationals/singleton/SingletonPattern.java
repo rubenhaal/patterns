@@ -11,7 +11,7 @@ public class SingletonPattern {
     //synchronized with this option
 
     private volatile static SingletonPattern singletonPattern2;
-//hace  que el valor de la variable sea guardado en memoria y no en la caché
+
     private SingletonPattern(){}
 
     public static synchronized SingletonPattern  getInstance(){
