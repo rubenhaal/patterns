@@ -10,7 +10,17 @@
   - With this pattern you can have loosely coupled classes
   - And if you want to change this during execution 
   - TODO Multi platform database connections.
+- Builder
+  - This design pattern is to make easy to create new objects
+  - It allows clarity in the creation of complex objects. It also gives more legibility.
+  - Make the object Immutable.
+  - Avoid the problem of the telescopic constructor.
+  - Can validate step by step
+  - Easy to add new optional attributes.
 - Chain of constructor.
+  - Centralize the logic for the constructor
+  - Less duplicated code if you need more than one constructor
+  - Flexibility but it could be used wrong for complex objects
 - Factory.
 - Other factory.
 - Singleton.
