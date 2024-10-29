@@ -8,17 +8,15 @@ import org.junit.jupiter.params.provider.CsvSource;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class PizzaFactoryTest {
-    PizzaFactory test;
 
-    PizzaFactory pizzaFactory = new PizzaFactory();
 
     @ParameterizedTest
     @CsvSource({"atun","barbacoa","carbonara"})
-    public void createPizza(String pizzaName){
+    void createPizza(String pizzaName){
         //given
 
         //when
-        Pizza pizza = pizzaFactory.createPizza(pizzaName);
+        Pizza pizza = PizzaFactory.createPizza(pizzaName);
         //should
         assertEquals(pizzaName,pizza.getNombre());
     }

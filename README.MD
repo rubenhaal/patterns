@@ -10,7 +10,7 @@
   - With this pattern you can have loosely coupled classes
   - And if you want to change this during execution 
   - TODO Multi platform database connections.
-- Builder
+- Builder.
   - This design pattern is to make easy to create new objects
   - It allows clarity in the creation of complex objects. It also gives more legibility.
   - Make the object Immutable.
@@ -22,5 +22,8 @@
   - Less duplicated code if you need more than one constructor
   - Flexibility but it could be used wrong for complex objects
 - Factory.
-- Other factory.
+  - With this creational pattern the encapsulation of the creation logic is delegated to the factory class.
+  - We have less coupled code and easy to change and add new classes.
 - Singleton.
+- Other factory.
+  - Based on the abstract factory
