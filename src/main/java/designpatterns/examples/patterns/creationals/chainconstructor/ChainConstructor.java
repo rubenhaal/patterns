@@ -7,7 +7,7 @@ import java.util.Vector;
 
 /**
  * The theory: if you have multiple constructor that contain duplicate code you can chan the constructor toegether to
- * to obtain  the least duplicate code.
+ * obtain  the least duplicate code.
  */
 public class ChainConstructor {
 
