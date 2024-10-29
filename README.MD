@@ -25,5 +25,8 @@
   - With this creational pattern the encapsulation of the creation logic is delegated to the factory class.
   - We have less coupled code and easy to change and add new classes.
 - Singleton.
+  - Less memory use, global access and control on the creation of the instance
 - Other factory.
   - Based on the abstract factory
+
+### Behavioral pattern

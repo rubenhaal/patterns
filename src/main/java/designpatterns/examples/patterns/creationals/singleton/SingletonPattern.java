@@ -7,7 +7,7 @@ package designpatterns.examples.patterns.creationals.singleton;
 public class SingletonPattern {
 
     private static SingletonPattern singletonPattern;
-    //private static SingletonPattern uniqueInstance = new SingletonPattern(); Eager aproach we don't need
+    //private static SingletonPattern uniqueInstance = new SingletonPattern(); Eager approach we don't need
     //synchronized with this option
 
     private volatile static SingletonPattern singletonPattern2;
